@@ -18,12 +18,19 @@ exports.handler = async (event, context) => {
       body: JSON.stringify({
         success: true,
         message: "Submit Information Successfully!",
+        senderEmail: process.env.SENDER_EMAIL,
+        noReplyEmail: process.env.NO_REPLY_MAIL,
       }),
     };
   } catch (error) {
     return {
       statusCode: 422,
-      body: JSON.stringify({ success: false, err: error }),
+      body: JSON.stringify({
+        success: false,
+        err: error,
+        senderEmail: process.env.SENDER_EMAIL,
+        noReplyEmail: process.env.NO_REPLY_MAIL,
+      }),
     };
   }
 };
