@@ -1,0 +1,80 @@
+.applicationContainer{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    
+}
+.dotmjorgroup22{
+    height: 60px;
+    width: 60px;
+    background-color: #efd2d24a;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: -520px;
+    top:-120px;
+}
+.application_box{
+    width: 77%;
+    margin: auto;
+}
+.aplyingfor{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 56px;
+    letter-spacing: 0.1px;
+    color: #000000;
+
+    margin-top: 50px;
+}
+.attachedresume{
+    width: 100%;
+    margin-top: 50px;
+}
+@media screen and (max-width: 768px) and (min-width: 200px) {
+    .applicationContainer{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #000000;
+        
+    }
+    .application_box{
+        width: 85%;
+        margin: auto;
+    }
+    .aplyingfor{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 56px;
+        letter-spacing: 0.1px;
+        color: #000000;
+    
+        margin-top: 50px;
+    }
+    .attachedresume{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .dotmjorgroup22{
+        height: 60px;
+        width: 60px;
+        background-color: #efd2d24a;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        left: -150px;
+        top:-120px;
+    }
+}

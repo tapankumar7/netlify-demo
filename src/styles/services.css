@@ -1,0 +1,210 @@
+.serviceBox{
+    width: 100%;
+    background-color: #FAFCFF;
+}
+.service_conatiner{
+    width: 75%;
+    margin: auto;
+}
+.serviceimages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.serviceimage{
+    height: 400px;
+}
+.cloud{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+
+}
+.servicebtn{
+    background: linear-gradient(83.66deg, #E57F3A 0%, #F09D21 100%);
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.enablement{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    padding-top: 40px;
+
+}
+.enabText{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+letter-spacing: 0.3px;
+color: #666769;
+padding-top: 20px;
+
+}
+.keyourprocess{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 56px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    margin-top: 120px;
+}
+.cubes{
+    display: flex;
+    justify-content: flex-end;
+}
+.cubeimage{
+    width: 20%;
+    text-align: right;
+}
+.cubetext{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    letter-spacing: 0.1px;
+    color: #666769;
+}
+
+.imgflex{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.cubewidth{
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.servicecont{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.cur{
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) and (min-width: 200px) {
+    .serviceBox{
+        width: 100%;
+        background-color: #FAFCFF;
+    }
+    .service_conatiner{
+        width: 80%;
+        margin: auto;
+    }
+    .serviceimages{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 00px;
+    }
+    .serviceimage{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .cloud{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #000000;
+    
+    }
+    .servicebtn{
+        background: linear-gradient(83.66deg, #E57F3A 0%, #F09D21 100%);
+        border-radius: 30px;
+        padding: 15px;
+        text-align: center;
+        letter-spacing: 0.3px;
+        color: #FFFFFF;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .enablement{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        padding-top: 40px;
+    
+    }
+    .enabText{
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    letter-spacing: 0.3px;
+    color: #666769;
+    padding-top: 20px;
+    
+    }
+    .keyourprocess{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 56px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        margin-top: 60px;
+    }
+    .cubes{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .cubeimage{
+        width: 30%;
+        text-align: right;
+    }
+    .cubetext{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        letter-spacing: 0.1px;
+        color: #666769;
+    }
+    
+    .imgflex{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .cubewidth{
+        margin: 20px;
+        margin-top: 50px;
+    }
+    
+    .servicecont{
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .cur{
+        width: 100%;
+    }
+}

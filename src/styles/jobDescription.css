@@ -1,0 +1,883 @@
+.desc_box{
+    width: 75%;
+    margin: auto;
+}
+.bgcolor{
+    width: 100%;
+    background-color: #FAFCFF;
+}
+.desc_box_h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+.dotmjorgroup21{
+    height: 60px;
+    width: 60px;
+    background-color: #efd2d24a;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    top:-470px;
+}
+.dotmjorgroup22A{
+    height: 60px;
+    width: 60px;
+    background-color: #efd2d24a;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top:-300px;
+}
+.imgdesc{
+    width: 25%;
+}
+.buisnessdev{
+    font-size: 30px;
+}
+.waw{
+    font-size: 26px;
+    color: lightgray;
+}
+.descbt{
+    width: 20%;
+}
+.desc_box_midHead{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    margin-bottom: 90px;
+}
+.desc_container{
+    display: flex;
+    justify-content: space-between;
+}
+.dex{
+    margin-bottom: 60px;
+}
+.mutualRespect{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #2E3847;
+}
+.mutualText{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    color: #666769;
+    text-align: justify;
+
+}
+.flex_desc{
+    display: flex;
+    justify-content: space-between;
+}
+.accordion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+.accordionhide{
+    display: none;
+}
+.desc_box_midHead2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.dex_text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    letter-spacing: 0.1px;
+    color: #666769;
+    margin-bottom: 50px;
+
+}
+.buiness_development{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.buisness_developmemt_col{
+    display: flex;
+    align-items: center;
+}
+.heading_developmemt{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 0.1px;
+    color: #2E3847;
+}
+.development_text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    letter-spacing: 0.1px;
+    color: #666769;
+}
+.buisn{
+    font-size: 28px;
+    display: flex;
+}
+.carosel_buiness{
+    margin-top: 100px;
+}
+.titleHeading_buisness{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #000000;
+
+}
+.carousell{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.authorName{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #2E3847;
+    text-align: center;
+    margin-top: 50px;
+}
+.authordesc{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #666769;
+    
+}
+.descbtn{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.title-main2 {
+    font-size: 2.6em;
+    font-family: Poppins;
+    font-weight: bold;
+    text-align: center;
+    color: #2E3847;
+  }
+
+  .title-main2 span {
+    color: #ed9528;
+  }
+
+  @media screen and (max-width: 800px) and (min-width: 200px) {
+    .desc_box{
+        width: 75%;
+        margin: auto;
+    }
+    .bgcolor{
+        width: 100%;
+        background-color: #FAFCFF;
+    }
+    .desc_box_h1{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 64px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #000000;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    
+    }
+    .desc_box_midHead{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        margin-bottom: 50px;
+    }
+    .desc_container{
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .imgdesc{
+        width: 25%;
+    }
+    
+    .mutualRespect{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #2E3847;
+        padding-top: 10px;
+    }
+    .mutualText{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        padding-top: 15px;
+    }
+    .flex_desc{
+        display: block;
+        justify-content: space-between;
+    }
+    .accordion{
+        display: block;
+        flex-direction: column;
+        margin-top: 10px;
+        padding-top: 10px;
+    
+    }
+    .accordionhide{
+        display: none;
+    }
+    .desc_box_midHead2{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+    .descbt{
+        width: 100%;
+    }
+    .dex_text{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        margin-bottom: 50px;
+    }
+    .dex_texts{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        margin-bottom: 50px;
+        padding-left: 20px;
+    }
+    .buiness_development{
+        display: block;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    .buisness_developmemt_col{
+        display: block;
+        align-items: center;
+    }
+    .heading_developmemt{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        letter-spacing: 0.1px;
+        color: #2E3847;
+    }
+    .development_text{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        letter-spacing: 0.1px;
+        color: #666769;
+    }
+    .buisn{
+        font-size: 22px;
+        display: flex;
+    }
+    .carosel_buiness{
+        margin-top: 100px;
+    }
+    .titleHeading_buisness{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #000000;
+    
+    }
+    .carousell{
+        display: block;
+        justify-content: space-between;
+        position: relative;
+        width: 90%;
+    }
+    .authorName{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #2E3847;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .authordesc{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #666769;
+        
+    }
+    .descbtn{
+        display: block;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .title-main2 {
+        font-size: 2em;
+        font-family: Poppins;
+        font-weight: bold;
+        text-align: center;
+        color: #2E3847;
+      }
+    
+      .title-main2 span {
+        color: #ed9528;
+      }
+      .bt_des{
+          margin-bottom: 20px;
+      }
+      .buisnessdev{
+          font-size: 24px;
+          font-weight: bold;
+      }
+      .buisnessdev span{
+        font-size: 22px;
+        color: lightgray;
+      }
+      .waw{
+          font-size: 19px;
+      }
+      .imageuser{
+          width: 60%;
+          height: 200px;
+      }
+      .buisn{
+          font-size: 18px;
+      }
+      .heading_developmemt{
+          font-size: 22px;
+      }
+    
+  }
+ 
+  @media screen and (max-width: 1200px) and (min-width: 800px) {
+    .desc_box{
+        width: 72%;
+        margin: auto;
+    }
+    .bgcolor{
+        width: 100%;
+        background-color: #FAFCFF;
+    }
+    .desc_box_h1{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 64px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #000000;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    
+    }
+    .desc_box_midHead{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        margin-bottom: 90px;
+    }
+    .desc_container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .imgdesc{
+        width: 30%;
+    }
+    
+    .mutualRespect{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #2E3847;
+        
+    }
+    .mutualText{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 40px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        padding-right: 50px;
+        margin-top: 20px;
+    }
+    .flex_desc{
+        display: flex;
+        justify-content: space-between;
+    }
+    .accordion{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        padding-top: 10px;
+    
+    }
+    .accordionhide{
+        display: none;
+    }
+    .desc_box_midHead2{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+    .descbt{
+        width: 40%;
+    }
+    .dex_text{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        margin-bottom: 50px;
+    
+    }
+    .buiness_development{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    .buisness_developmemt_col{
+        display: flex;
+        align-items: center;
+    }
+    .heading_developmemt{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        letter-spacing: 0.1px;
+        color: #2E3847;
+    }
+    .development_text{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 0.1px;
+        color: #666769;
+    }
+    .buisn{
+        font-size: 20px;
+        display: flex;
+    }
+    .carosel_buiness{
+        margin-top: 100px;
+    }
+    .titleHeading_buisness{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #000000;
+    
+    }
+    .carousell{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 80%;
+    }
+    .authorName{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #2E3847;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .authordesc{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #666769;
+        
+    }
+    .descbtn{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .title-main2 {
+        font-size: 2em;
+        font-family: Poppins;
+        font-weight: bold;
+        text-align: center;
+        color: #2E3847;
+      }
+    
+      .title-main2 span {
+        color: #ed9528;
+      }
+      .bt_des{
+          margin-bottom: 20px;
+      }
+      .buisnessdev{
+          font-size: 25px;
+          font-weight: bold;
+      }
+      .buisnessdev span{
+        font-size: 23px;
+        color: lightgray;
+      }
+      .waw{
+          font-size: 19px;
+      }
+      .dex_texts{
+          font-size: 21px;
+          color: #666769;
+          padding-left: 25px;
+      }
+      .imageuser{
+        height: 300px;
+        width: 60%
+      }
+    
+  }
+  @media screen and (max-width: 1800px) and (min-width: 1200px) {
+    .imageuser{
+        height: 300px;
+        width: 50%
+      }
+    .desc_box{
+        width: 75%;
+        margin: auto;
+    }
+    .bgcolor{
+        width: 100%;
+        background-color: #FAFCFF;
+    }
+    .desc_box_h1{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 64px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #000000;
+        margin-top: 50px;
+    
+    }
+    .desc_box_midHead{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        margin: 0;
+        margin-bottom: 60px;
+    }
+    .desc_container{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+    .dex{
+        width: 50%;
+        margin-right: 50px;
+    }
+    .imgdesc{
+        width: 15%;
+    }
+    
+    .mutualRespect{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #2E3847;
+        margin-top: 20px;
+    }
+    .mutualText{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 40px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        width: 95%;
+        margin-top:10px;
+    }
+    .flex_desc{
+        display: flex;
+        justify-content: space-between;
+    }
+    .accordion{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        padding-top: 10px;
+    
+    }
+    .accordionhide{
+        display: none;
+    }
+    .desc_box_midHead2{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+    .descbt{
+        width: 20%;
+    }
+    .dex_text{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        margin-bottom: 50px;
+    
+    }
+    .dex_texts{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        margin-bottom: 50px;
+        padding-left: 25px;
+    }
+    .buiness_development{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px !important;
+    }
+    .buisness_developmemt_col{
+        display: flex;
+        align-items: center;
+    }
+    .heading_developmemt{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        letter-spacing: 0.1px;
+        color: #2E3847;
+    }
+    .development_text{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        margin-bottom: 40px;
+    }
+    .buisn{
+        font-size: 28px;
+        display: flex;
+    }
+    .carosel_buiness{
+        margin-top: 100px;
+    }
+    .titleHeading_buisness{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #000000;
+    
+    }
+    .carousell{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 60%;
+    }
+    .authorName{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #2E3847;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .authordesc{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #666769;
+        
+    }
+    .descbtn{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .title-main2 {
+        font-size: 3em;
+        font-family: Poppins;
+        font-weight: bold;
+        text-align: center;
+        color: #2E3847;
+      }
+    
+      .title-main2 span {
+        color: #ed9528;
+      }
+      .bt_des{
+          margin-bottom: 20px;
+      }
+      .buisnessdev{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #E57F3A;
+      }
+      .buisnessdev span{
+        font-size: 20px;
+        color: lightgray;
+      }
+      .waw{
+          font-size: 24px;
+      }
+    
+  }
+  .MuiPaper-elevation1 {
+    box-shadow: none !important;
+}
+.MuiAccordion-root:before {
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 0px !important;
+    content: "";
+    opacity: 1;
+    position: absolute;
+    transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: rgba(0, 0, 0, 0.12);
+}

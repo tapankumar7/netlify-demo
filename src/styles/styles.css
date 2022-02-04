@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header__wrapper {
+  box-shadow: 0px 0 20px 0px rgb(46 56 71 / 10%);
+}
+.bg-main-color {
+  background-color: #e57f3a;
+}
+.bg-button-color {
+  background: linear-gradient(83.66deg, #e57f3a 0%, #f09d21 100%);
+}
+.text-main-color {
+  color: #e57f3a;
+}
+.hover\:text-main-color:hover {
+  color: #e57f3a;
+}
+.card-shadow {
+  box-shadow: 10px 10px 13px 0 rgba(46, 56, 71, 0.1);
+}
+.title-corner {
+  position: relative;
+  font-size: 1.8em;
+  font-weight: 500;
+  color: #2e3847;
+}
+.p-title-corner {
+  padding: 1em 1.5em;
+}
+.title-main {
+  font-size: 3em;
+  font-family: Poppins;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title-main span {
+  color: #ed9528;
+}
+
+.sub-title-main {
+  font-size: 2em;
+  font-weight: bold;
+}
+.title-main22 {
+  font-size: 3em;
+  font-family: Poppins;
+  font-weight: bold;
+  text-align: left;
+}
+
+.title-main22 span {
+  color: #ed9528;
+}
+
+.sub-title-main22 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.border-t-none {
+  border-top: none;
+}
+.border-b-none {
+  border-bottom: none;
+}
+.w-li {
+  width: 23%;
+}
+.text-size-1\.9 {
+  font-size: 1.9em;
+}
+.text-size-1\.7 {
+  font-size: 1.7em;
+}
+.text-size-3\.5 {
+  font-size: 3.5em;
+}
+.w-input {
+  width: 40%;
+}
+.w-select {
+  width: 48%;
+}
+.p-input {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+.slick-slider,
+.slick-list,
+.slick-track,
+.slick-slide > div {
+  height: 100%;
+}
+.slick-dots {
+  bottom: 10px !important;
+}
+.slick-dots li {
+  margin: 0 !important;
+}
+.slick-dots li button:before {
+  font-size: 10px !important;
+  color: #c4c4c4 !important;
+  opacity: 0.4 !important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+}
+.block {
+  display: block !important;
+}
+.hidden {
+  display: none !important;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}

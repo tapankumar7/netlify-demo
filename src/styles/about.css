@@ -1,0 +1,276 @@
+.aboutss{
+    width: 100%;
+    background-color: #FAFCFF;
+}
+.aboutescontainer{
+    width: 75%;
+    margin: auto;
+}
+.textaligns{
+    text-align: center;
+}
+.headling{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    padding-top: 70px;
+}
+.headlingtext{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    letter-spacing: 0.3px;
+    color: #666769;
+    padding-top: 20px;
+}
+.aboutflex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 120px;
+}
+.po{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #666769;
+}
+.numbers{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #2E3847;
+    padding-top: 10px;
+}
+.imagess{
+    display: flex;
+    padding-top: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.uyui{
+    width: 90%;
+
+}
+.aboutheadingsss{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 0.1px;
+    color: #2E3847;
+
+}
+.aboutetxtss{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #666769;
+    width: 80%;
+
+}
+.w{
+    width: 50%;
+}
+.founder{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    padding-top: 160px;
+    padding-bottom: 40px;
+}
+.newsws{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.t{
+    width: 32%;
+}
+
+.carsss{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    color: #666769;
+    padding-top: 20px;
+}
+.hhy{
+    width: 100%;
+    height: 300px;
+}
+.aboutcontaner{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    color: #666769;
+    padding-top: 15px;
+}
+.texthiddensss{
+    white-space: normal; 
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis ; 
+  }
+
+  @media screen and (max-width: 1000px) and (min-width: 200px) {
+    .aboutescontainer{
+        width: 90%;
+        margin: auto;
+    }
+    .textaligns{
+        text-align: center;
+    }
+    .headling{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #000000;
+        padding-top: 70px;
+    }
+    .headlingtext{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        width:100%;
+        margin: auto;
+        letter-spacing: 0.3px;
+        color: #666769;
+        padding-top: 20px;
+    }
+    .aboutflex{
+        display: block;
+        justify-content: space-between;
+        padding-top: 80px;
+    }
+    .po{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #666769;
+    }
+    .numbers{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #2E3847;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .imagess{
+        display: block;
+        padding-top: 100px;
+        align-items: center;
+    }
+    .uyui{
+        width: 100%;
+    }
+    .aboutheadingsss{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 0.1px;
+        color: #2E3847;
+        padding-top: 20px;
+    
+    }
+    .aboutetxtss{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        width: 80%;
+        padding-top: 20px;
+    
+    }
+    .w{
+        width: 100%;
+    }
+    .founder{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    .newsws{
+        display: block;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    .t{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    
+    .carsss{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        padding-top: 20px;
+    }
+    .hhy{
+        width: 100%;
+        height: 300px;
+    }
+    .aboutcontaner{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        padding-top: 15px;
+    }
+    .texthiddensss{
+        white-space: normal; 
+        height: 60px;
+        overflow: hidden;
+        text-overflow: ellipsis ; 
+      }
+    
+  }

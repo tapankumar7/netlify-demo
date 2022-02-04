@@ -1,0 +1,136 @@
+.homeServices {
+  .cards {
+    margin-bottom: 162px;
+    > div {
+      background: #fafcff;
+      padding: 40px;
+      box-shadow: 10px 10px 13px rgba(46, 56, 71, 0.1);
+      border-radius: 10px;
+      &:nth-child(2) {
+        margin: 0 70px;
+      }
+      .title {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #666769;
+        margin: 32px 0 10px;
+        white-space: nowrap;
+      }
+      .count {
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 56px;
+        letter-spacing: 0.1px;
+        color: #2e3847;
+      }
+      .circle {
+        width: 105px;
+        height: 105px;
+      }
+    }
+  }
+  .services {
+    [class="w-1/2"] {
+      max-width: 46%;
+    }
+    .p-title-corner {
+      > div {
+        margin-bottom: 10px;
+        a {
+          color: #6a7689;
+          font-weight: 300;
+          border-bottom: 1px solid transparent;
+          &:hover {
+            background: linear-gradient(180deg, #e57f3a 0%, #f09d21 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 500;
+            border-bottom-color: #f09d21;
+          }
+        }
+      }
+    }
+  }
+}
+
+.title-corner {
+  padding: 23px 0 0 30px;
+  > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    > span {
+      display: block;
+      width: 40px;
+      height: 7px;
+      border-radius: 30px;
+      &:last-child {
+        transform: rotate(90deg) translate(11px, 17px);
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .homeServices {
+    .container {
+      > div.flex {
+        margin-bottom: 80px;
+        flex-direction: column;
+        > div {
+          width: 100%;
+          margin: 0 0 20px;
+        }
+      }
+    }
+    .services .p-title-corner > div a {
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .homeServices {
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 25px;
+    }
+    .container {
+      > div.flex {
+        > div {
+          .title {
+            font-size: 20px;
+          }
+          .count {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+    .services {
+      [class="w-1/2"] {
+        max-width: 100%;
+      }
+      > div {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        > div {
+          width: 100%;
+          h3 {
+            font-size: 20px;
+          }
+          a {
+            font-size: 15px !important;
+          }
+        }
+      }
+      p {
+        padding: 15px 30px;
+      }
+    }
+  }
+}
