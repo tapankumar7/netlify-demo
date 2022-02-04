@@ -8,7 +8,7 @@ exports.handler = async (event, context) => {
     from: process.env.NO_REPLY_MAIL,
     subject: process.env.MAIL_SUBJECT,
     text: process.env.CONTACT_US_TEXT,
-    html: `user submit his informatition email: ${data.email} name: ${data.name} company: ${data.company} phone: ${data.phone} description: ${data.description} domain: ${data.domine}`,
+    html: `<p>user submit his informatition <br/>email: ${data.email} <br/>name: ${data.name} <br/>company: ${data.company} <br/>phone: ${data.phone} <br/>description: ${data.description} <br/>domain: ${data.domine}</p>`,
   };
 
   try {
